@@ -1,0 +1,50 @@
+h3{
+    font-size:25px;
+}
+
+.form-container {
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    color: #223F61;
+    border-radius:10px;
+    box-shadow: 10px 10px;
+
+    background:#FCF6E8;
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    width:40%;
+}
+
+img{
+    width:50%;
+    height:auto;
+    border-radius:10px;
+    box-shadow: 10px 10px;
+}
+
+#contact-button{
+    width:40%;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 20px;
+    color:white;
+    background:#223F61;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: url(/cursor/pointer3.svg), auto;
+}
+
+.form-container p{
+    width: 75%;
+    margin-top:30px;
+}
+
+@media only screen and (max-width: 850px) {
+    .form-container{
+        width: 70%;
+    }
+ 
+     
+ }
